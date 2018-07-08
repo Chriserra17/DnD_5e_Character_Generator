@@ -2249,12 +2249,12 @@ def Spell_Gen():
     return spells_known
 
 #Making a better display for the stats.
-def Stat_Displayer():
-    f = []
-    global Stat_Display_Items
-    for a, b in Stat_Display_items:
-        f.append(a, b)
-    return f
+#def Stat_Displayer():
+#    f = []
+#    global Stat_Display_Items
+#    for a, b in Stat_Display_items:
+#        f.append(a, b)
+#    return f
 
 
 
