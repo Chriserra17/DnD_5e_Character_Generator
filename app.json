@@ -1,0 +1,15 @@
+{
+  "name": "DnD_5e_Character_Generator",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
