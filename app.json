@@ -1,6 +1,8 @@
 {
-  "name": "DnD_5e_Character_Generator",
+  "name": "D&D 5e Character Generator",
+  "description" : "This app randomly generates D&D 5e characters",
   "scripts": {
+    "DnD_Gen_Python" : "D&D Generator"
   },
   "env": {
   },
