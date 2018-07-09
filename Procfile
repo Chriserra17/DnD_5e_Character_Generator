@@ -1,2 +1,1 @@
-worker: python code.py
-ps:scale web=1
+web: python code.py $PORT
