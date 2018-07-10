@@ -349,6 +349,7 @@ def Character_Level():
         Level_Set = 1
     else:
         Level_Set = Level_Input
+    print('\n')
     return Level_Set
 #Well now that we have the armor type that they will use, lets assign which piece it is that they're using
 def Gear_Gen():
