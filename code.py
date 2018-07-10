@@ -343,12 +343,12 @@ def Armor_Gen():
     return armor
 #In order to start getting character skills, and health. I need to know the level
 def Character_Level():
-    Level_Set = 1
-#    Level_Input = input("What level will this Character be? ")
-#    if Level_Input == '':
-#        Level_Set = 1
-#    else:
-#        Level_Set = Level_Input
+    Level_Set = 0
+    Level_Input = input("What level will this Character be? ")
+    if Level_Input == '':
+        Level_Set = 1
+    else:
+        Level_Set = Level_Input
     return Level_Set
 #Well now that we have the armor type that they will use, lets assign which piece it is that they're using
 def Gear_Gen():
