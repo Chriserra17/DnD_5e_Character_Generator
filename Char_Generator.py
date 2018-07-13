@@ -313,9 +313,7 @@ def Armor_Gen():
             s = random.randint(0, 1)
             armor.append(armor_a[s])
     elif str('Monk') == Class_a:
-        armor_a = ['Light Armor', 'Medium Armor',]
-        s = random.randint(0, 1)
-        armor.append(armor_a[s])
+        armor.append('None')
     elif str('Paladin') == Class_a:
         armor_a = ['Light Armor', 'Medium Armor', 'Heavy Armor']
         s = random.randint(0, 2)
