@@ -1804,7 +1804,7 @@ def Spell_Gen():
                 b = random.randint(1, 5)
                 AmountOfSpells[b] += 1
         elif int(Character_Level) >= 17 and int(Character_Level) <= 18:
-            AmountOfSpells = [4, 0, 0, 0, 0, 10, 1, 1, 1, 1]
+            AmountOfSpells = [4, 0, 0, 0, 0, 0, 1, 1, 1, 1]
             for x in range(0, 9):
                 b = random.randint(1, 5)
                 AmountOfSpells[b] += 1
